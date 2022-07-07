@@ -6,7 +6,7 @@ This project was made while studying on the full-stack development course from {
 
 I chose to replicate [NOWNESS](https://www.nowness.com), as it had all the main elements we had covered while also presenting some challenges in terms of replicating it using only HTML and CSS.
 
-For example, the animated dropdown burger menu and [sliding checkboxes](./assets/readme%20files/Screenshot%202022-07-06%20at%2015.42.52.png) used JavaScript, so replicating these in CSS alone was a challenge that allowed me to further my learning.
+For example, the animated dropdown burger menu and ![sliding checkboxes](https://user-images.githubusercontent.com/105374575/177881048-86948bc5-5638-4b47-b29c-5097175d7a99.png)/image.jpg?raw=true) used JavaScript, so replicating these in CSS alone was a challenge that allowed me to further my learning.
 
 ### Changes I have made:
 
@@ -20,3 +20,4 @@ Since the primary aim was to consolidate knowledge of HTML and CSS by creating a
 
 - Refactor CSS to SASS. This would increase efficiency and keep the overall size smaller, too.
 - Refactor classes using Block Element Modifier model.
+
