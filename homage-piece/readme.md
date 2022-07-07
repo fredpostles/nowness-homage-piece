@@ -1,6 +1,6 @@
 # {the jump} - Homage Piece - NOWNESS
 
-This project was made while studying on the full-stack development course from {the jump}.
+[This project](https://nowness-homage-fp.netlify.app/) was made while studying on the full-stack development course from {the jump}.
 
 ### The aim of this project was to replicate an existing site from scratch, using only HTML and CSS, so that at a glance it looked the same.
 
