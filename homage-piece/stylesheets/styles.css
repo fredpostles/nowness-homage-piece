@@ -119,6 +119,7 @@ img.title__logo {
 .hamburger__menu {
   width: 2.1rem;
   height: 1.6rem;
+  cursor: pointer;
 }
 
 .hamburger__menu__container {
@@ -128,6 +129,7 @@ img.title__logo {
   transform: translateY(-2rem);
   pointer-events: none;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .hamburger__menu .line {
@@ -135,6 +137,10 @@ img.title__logo {
   height: 0.2rem;
   margin-bottom: 0.5rem;
   transition: all ease-in-out 0.15s;
+}
+
+.burger__checkbox {
+  cursor: pointer;
 }
 
 .burger__checkbox:checked ~ .hamburger__menu__container > .line-one {
