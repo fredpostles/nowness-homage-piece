@@ -1,4 +1,4 @@
-/* Definitions */
+/* Imports */
 
 @font-face {
   font-family: "FuturaPT";
@@ -122,14 +122,18 @@ img.title__logo {
   cursor: pointer;
 }
 
+.burger__checkbox {
+  cursor: pointer;
+}
+
 .hamburger__menu__container {
   display: block;
   width: 2.1rem;
   height: 1.6rem;
   transform: translateY(-2rem);
+  cursor: pointer;
   pointer-events: none;
   background-color: #fff;
-  cursor: pointer;
 }
 
 .hamburger__menu .line {
@@ -137,9 +141,6 @@ img.title__logo {
   height: 0.2rem;
   margin-bottom: 0.5rem;
   transition: all ease-in-out 0.15s;
-}
-
-.burger__checkbox {
   cursor: pointer;
 }
 
@@ -285,13 +286,6 @@ section.latest {
   overflow: scroll;
 }
 
-.main-nav ul {
-  justify-content: center;
-  overflow: auto;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-}
-
 nav ul a {
   padding: 1.5rem 2rem;
   font-size: 1.3rem;
@@ -319,6 +313,10 @@ nav ul a:hover {
 .toolbar-container a {
   width: 2.4rem;
   position: relative;
+}
+
+.toolbar-container a:nth-of-type(2) {
+  margin: 0 0.8rem;
 }
 
 a.icon::after {
@@ -458,18 +456,11 @@ a.icon:hover::after {
   opacity: 0.7;
 }
 
-.newsletter__section {
-  padding: 2rem 0;
-}
-
 .follow-us__section,
 .join-us__section,
-.more-to-love__section {
+.more-to-love__section,
+.newsletter__section {
   padding: 2rem;
-}
-
-nav .flex-container {
-  justify-content: center;
 }
 
 ul.flex-container__column {
@@ -681,7 +672,7 @@ section header {
 }
 
 .newsletter__form {
-  width: 42.5rem;
+  max-width: 42.5rem;
   margin: 0 auto;
 }
 
@@ -932,13 +923,6 @@ button.newsletter {
   margin-bottom: 11.5rem;
 }
 
-/* This is for above 1024px */
-/* .join {
-  padding-right: 3rem;
-  width: 50%;
-  border-right: 1px solid #000;
-} */
-
 .join-us__title,
 .connect__title {
   font-size: 1.6rem;
@@ -980,17 +964,10 @@ button.newsletter {
   color: #c9a16e;
 }
 
-/* This applies up to 1024px */
 .connect {
   padding: 0;
   width: 100%;
 }
-
-/* This is for above 1024px */
-/* .connect {
-  padding-left: 3rem;
-  width: 50%;
-} */
 
 .more-to-love__section {
   max-width: 140rem;
@@ -1163,6 +1140,11 @@ ul li svg {
     justify-content: space-between;
     padding: 1.25rem 3rem;
   }
+
+  nav .flex-container {
+    justify-content: center;
+  }
+
   img.title__logo {
     height: 5.6rem;
     width: 34rem;
@@ -1181,12 +1163,12 @@ ul li svg {
     height: 55.5rem;
   }
 
-  .spotlight-title {
+  h2.spotlight-title {
     font-size: 4.3rem;
   }
 
   .spotlight .desc {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .editorial__content-container {
