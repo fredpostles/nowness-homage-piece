@@ -299,10 +299,6 @@ nav ul a:hover {
   color: #c9a16e;
 }
 
-.main-nav ul {
-  margin: 0 auto;
-}
-
 .toolbar-container {
   position: relative;
   justify-content: space-evenly;
